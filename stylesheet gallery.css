@@ -1,0 +1,25 @@
+/* Setting for gallery imgs */
+img {
+  margin: 20px;
+  padding: 30px;
+  width: 80%;
+  border-radius: 60px;
+}
+
+/* Setting for gallery imgs hover effect */
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1),
+    -webkit-transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+/* backg color and hidden horisontal scroll bar */
+body {
+  background-color: rgb(253, 249, 242);
+}
+
+/* Hides the scrollbar */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
